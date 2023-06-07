@@ -8,8 +8,8 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        {/* <Script
-          src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${NEXT_PUBLIC_GA_MEASUREMENT_ID}`}
           strategy="afterInteractive"
           onError={(e) => {
             console.error("Script failed to load code:1", e);
@@ -23,7 +23,7 @@ export default function Document() {
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'YOUR_GA_TRACKING_ID', {
+              gtag('config', ${NEXT_PUBLIC_GA_MEASUREMENT_ID}, {
                 page_path: window.location.pathname,
               });
             `,
@@ -32,7 +32,7 @@ export default function Document() {
             console.error("Script failed to load code:2", e);
           }}
         />
-        <Script
+        {/* <Script
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           data-ad-client="YOUR_ADSENSE_CLIENT_ID"
           strategy="afterInteractive"
