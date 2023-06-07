@@ -147,7 +147,7 @@ export default function Comments({ comments, id }) {
                 className="rounded-full"
                 height={50}
                 width={50}
-                src="/../public/userImage.png"
+                src="/userImage.png"
                 alt="default_user_logo"
               />
               <div className="ml-4">

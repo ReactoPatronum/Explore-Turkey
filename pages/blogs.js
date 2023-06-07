@@ -58,7 +58,7 @@ export async function getStaticProps(context) {
       props: {
         data,
       },
-      revalidate: 18000,
+      revalidate: 3600,
     };
   } catch (error) {
     return { props: { error: true } };

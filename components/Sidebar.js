@@ -54,7 +54,7 @@ function Sidebar({ item }) {
                     <Image
                       height={60}
                       width={60}
-                      src="/../public/upworklogo.png"
+                      src="/upworklogo.png"
                       alt="fiverr_Logo"
                     />
                   </a>
@@ -64,7 +64,7 @@ function Sidebar({ item }) {
                     <Image
                       height={60}
                       width={60}
-                      src="/../public/instalogo.png"
+                      src="/instalogo.png"
                       alt="instagram_Logo"
                     />
                   </a>
@@ -78,7 +78,7 @@ function Sidebar({ item }) {
                   <Image
                     height={60}
                     width={60}
-                    src="/../public/email.png"
+                    src="/email.png"
                     alt="email_Logo"
                   />
                 </Tooltip>

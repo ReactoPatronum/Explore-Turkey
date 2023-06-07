@@ -8,8 +8,8 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        {/* <Script
-          src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id='G-GGZG06ZVRT'`}
           strategy="afterInteractive"
           onError={(e) => {
             console.error("Script failed to load code:1", e);
@@ -23,7 +23,7 @@ export default function Document() {
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'YOUR_GA_TRACKING_ID', {
+              gtag('config', 'G-GGZG06ZVRT', {
                 page_path: window.location.pathname,
               });
             `,
@@ -34,7 +34,7 @@ export default function Document() {
         />
         <Script
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-          data-ad-client="YOUR_ADSENSE_CLIENT_ID"
+          data-ad-client="ca-pub-4287616348033306"
           strategy="afterInteractive"
           onError={(e) => {
             console.error("Script failed to load code 3", e);
@@ -46,7 +46,7 @@ export default function Document() {
           dangerouslySetInnerHTML={{
             __html: `
             (adsbygoogle = window.adsbygoogle || []).push({
-              google_ad_client: "YOUR_ADSENSE_CLIENT_ID",
+              google_ad_client: "ca-pub-4287616348033306",
               enable_page_level_ads: true
             });
             `,
@@ -54,7 +54,7 @@ export default function Document() {
           onError={(e) => {
             console.error("Script failed to load code 4", e);
           }}
-        /> */}
+        />
       </body>
     </Html>
   );
