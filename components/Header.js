@@ -44,7 +44,7 @@ function Header() {
                 <Image
                   height={30}
                   width={30}
-                  src="/../public/upworklogo.png"
+                  src="/upworklogo.png"
                   alt="fiverr_Logo"
                 />
               </a>
@@ -54,7 +54,7 @@ function Header() {
                 <Image
                   height={30}
                   width={30}
-                  src="/../public/instalogo.png"
+                  src="/instalogo.png"
                   alt="fiverr_Logo"
                 />
               </a>
@@ -65,12 +65,7 @@ function Header() {
               placement="top"
               className="cursor-pointer"
             >
-              <Image
-                height={30}
-                width={30}
-                src="/../public/email.png"
-                alt="email_Logo"
-              />
+              <Image height={30} width={30} src="/email.png" alt="email_Logo" />
             </Tooltip>
           </div>
         </div>
