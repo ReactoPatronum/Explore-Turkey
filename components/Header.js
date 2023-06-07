@@ -40,7 +40,7 @@ function Header() {
           <SearchModal />
           <div className="md:flex items-center space-x-3 bg-gray-200 p-2 px-4 rounded-full hidden">
             <Tooltip title="Upwork" placement="top">
-              <a href="http://localhost:3000/">
+              <a href="">
                 <Image
                   height={30}
                   width={30}
@@ -50,7 +50,7 @@ function Header() {
               </a>
             </Tooltip>
             <Tooltip title="Instagram" placement="top">
-              <a href="http://localhost:3000/">
+              <a href="">
                 <Image
                   height={30}
                   width={30}

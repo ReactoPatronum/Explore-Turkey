@@ -50,7 +50,7 @@ function Sidebar({ item }) {
             <div>
               <div className="flex items-center justify-center space-x-4 rounded-full mt-2">
                 <Tooltip title="Upwork" placement="top">
-                  <a href="http://localhost:3000/">
+                  <a href="">
                     <Image
                       height={60}
                       width={60}
@@ -60,7 +60,7 @@ function Sidebar({ item }) {
                   </a>
                 </Tooltip>
                 <Tooltip title="İnstagram" placement="top">
-                  <a href="http://localhost:3000/">
+                  <a href="">
                     <Image
                       height={60}
                       width={60}
