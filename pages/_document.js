@@ -9,7 +9,7 @@ export default function Document() {
         <Main />
         <NextScript />
         <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`}
+          src={`https://www.googletagmanager.com/gtag/js?id='G-GGZG06ZVRT'`}
           strategy="afterInteractive"
           onError={(e) => {
             console.error("Script failed to load code:1", e);
@@ -23,7 +23,7 @@ export default function Document() {
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', ${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}, {
+              gtag('config', 'G-GGZG06ZVRT', {
                 page_path: window.location.pathname,
               });
             `,
