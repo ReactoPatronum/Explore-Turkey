@@ -8,30 +8,31 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id="G-GGZG06ZVRT"`}
-          strategy="afterInteractive"
-          onError={(e) => {
-            console.error("Script failed to load code:1", e);
-          }}
-        />
-        <Script
-          id="google-analytics"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', "G-GGZG06ZVRT", {
-                page_path: window.location.pathname,
-              });
-            `,
-          }}
-          onError={(e) => {
-            console.error("Script failed to load code:2", e);
-          }}
-        />
+     <Script
+  src="https://www.googletagmanager.com/gtag/js?id=G-GGZG06ZVRT"
+  strategy="afterInteractive"
+  onError={(e) => {
+    console.error("Script failed to load code:1", e);
+  }}
+/>
+<Script
+  id="google-analytics"
+  strategy="afterInteractive"
+  dangerouslySetInnerHTML={{
+    __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-GGZG06ZVRT', {
+        page_path: window.location.pathname,
+      });
+    `,
+  }}
+  onError={(e) => {
+    console.error("Script failed to load code:2", e);
+  }}
+/>
+
         {/* <Script
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           data-ad-client="YOUR_ADSENSE_CLIENT_ID"
