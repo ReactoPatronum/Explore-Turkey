@@ -54,8 +54,8 @@ function Sidebar({ item }) {
                     <Image
                       height={60}
                       width={60}
-                      src="/../public/upworklogo.png"
-                      alt="fiverr_Logo"
+                      src="/upworklogo.png"
+                      alt="upwork_Logo"
                     />
                   </a>
                 </Tooltip>

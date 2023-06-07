@@ -45,7 +45,7 @@ function Header() {
                   height={30}
                   width={30}
                   src="/upworklogo.png"
-                  alt="fiverr_Logo"
+                  alt="upwork_Logo"
                 />
               </a>
             </Tooltip>
@@ -55,7 +55,7 @@ function Header() {
                   height={30}
                   width={30}
                   src="/instalogo.png"
-                  alt="fiverr_Logo"
+                  alt="insta_Logo"
                 />
               </a>
             </Tooltip>

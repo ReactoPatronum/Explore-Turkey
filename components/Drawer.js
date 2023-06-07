@@ -83,7 +83,7 @@ export default function TemporaryDrawer() {
                   height={30}
                   width={30}
                   src="/upworklogo.png"
-                  alt="fiverr_Logo"
+                  alt="upwork_Logo"
                 />
               </ListItemIcon>
               <div className="cursor-pointer">Upwork</div>
@@ -98,7 +98,7 @@ export default function TemporaryDrawer() {
                   height={30}
                   width={30}
                   src="/instalogo.png"
-                  alt="fiverr_Logo"
+                  alt="insta_Logo"
                 />
               </ListItemIcon>
               <div className="cursor-pointer">Instagram</div>
