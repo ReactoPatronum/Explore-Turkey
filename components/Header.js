@@ -49,7 +49,7 @@ function Header() {
                 />
               </a>
             </Tooltip>
-            <Tooltip title="İnstagram" placement="top">
+            <Tooltip title="Instagram" placement="top">
               <a href="http://localhost:3000/">
                 <Image
                   height={30}
