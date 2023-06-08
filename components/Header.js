@@ -39,7 +39,7 @@ function Header() {
         <div className="flex items-center">
           <SearchModal />
           <div className="md:flex items-center space-x-3 bg-gray-200 p-2 px-4 rounded-full hidden">
-            <Tooltip title="Upwork" placement="top">
+            {/* <Tooltip title="Upwork" placement="top">
               <a href="">
                 <Image
                   height={30}
@@ -48,7 +48,7 @@ function Header() {
                   alt="upwork_Logo"
                 />
               </a>
-            </Tooltip>
+            </Tooltip> */}
             <Tooltip title="Instagram" placement="top">
               <a href="">
                 <Image

@@ -75,7 +75,7 @@ export default function TemporaryDrawer() {
       </List>
       <Divider />
       <List className="">
-        <a target="_blank" href="">
+        {/* <a target="_blank" href="">
           <div className="hover:text-green-500 font-semibold transition-all duration-200 ">
             <ListItemButton>
               <ListItemIcon>
@@ -89,7 +89,7 @@ export default function TemporaryDrawer() {
               <div className="cursor-pointer">Upwork</div>
             </ListItemButton>
           </div>
-        </a>
+        </a> */}
         <a target="_blank" href="">
           <div className="hover:text-orange-600 font-semibold transition-all duration-200 ">
             <ListItemButton>

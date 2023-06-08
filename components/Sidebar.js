@@ -49,7 +49,7 @@ function Sidebar({ item }) {
             <Divider className="mb-5 border-yellow-400 border-2" />
             <div>
               <div className="flex items-center justify-center space-x-4 rounded-full mt-2">
-                <Tooltip title="Upwork" placement="top">
+                {/* <Tooltip title="Upwork" placement="top">
                   <a href="">
                     <Image
                       height={60}
@@ -58,7 +58,7 @@ function Sidebar({ item }) {
                       alt="upwork_Logo"
                     />
                   </a>
-                </Tooltip>
+                </Tooltip> */}
                 <Tooltip title="İnstagram" placement="top">
                   <a href="">
                     <Image
