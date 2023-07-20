@@ -6,6 +6,7 @@ Bu Blog Uygulaması, Türkiye'de gezilecek yerlere odaklanan tamamen Türkçe bi
 
 - Geliştirilmiş SEO: Uygulamada SEO performansını artırmak için farklı yaklaşımlar kullanıldı. Bazı sayfalar Server-Side Rendering (SSR) yöntemiyle sunulurken, bazı sayfalar statik olarak oluşturuldu. SSR, sayfaların sunucu tarafında oluşturulmasını sağlar ve SEO açısından daha iyi indekslenmelerine yardımcı olabilir. Statik olarak oluşturulan sayfalar ise hızlı yükleme süreleri ve iyi bir kullanıcı deneyimi sunabilir.
 - Next.js: Hızlı ve SEO dostu bir web uygulaması için Next.js kullanıldı.
+- API entegrasyonu, uygulamanın performansını ve veri yönetimini optimize etmek için server tarafında yapıldı. Bu sayede, önemli veri istekleri sunucu tarafında gerçekleştirilerek, veri yükü ve kullanıcı cihazları üzerindeki yük azaltıldı.
 - Sanity CMS: Blog yazılarının içerik yönetimi için Sanity CMS kullanıldı.
 - Material UI: Uygulamanın kullanıcı arayüzü Material UI bileşenleriyle tasarlandı.
 - Tailwind CSS: Uygulamanın stillemesi için Tailwind CSS kullanıldı.
