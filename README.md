@@ -9,6 +9,8 @@ Bu Blog Uygulaması, Türkiye'de gezilecek yerlere odaklanan tamamen Türkçe bi
 - Sanity CMS: Blog yazılarının içerik yönetimi için Sanity CMS kullanıldı.
 - Material UI: Uygulamanın kullanıcı arayüzü Material UI bileşenleriyle tasarlandı.
 - Tailwind CSS: Uygulamanın stillemesi için Tailwind CSS kullanıldı.
+- react/portabletext: Sanity CMS tarafından sağlanan içerikleri kolayca React bileşenlerine dönüştürmek için kullanıldı. İçeriği yapılandırılmış bir JSON formatında temsil ederek içeriğin taşınabilirliğini sağlar.
+- React.js: Kullanıcı arayüzünü oluşturmak için kullanıldı. Bileşen tabanlı yaklaşımı sayesinde uygulamada modüler ve yeniden kullanılabilir bileşenler oluşturmayı kolaylaştırır.
 
 ## Kullanım
 
@@ -18,4 +20,4 @@ Bu Blog Uygulaması, Türkiye'de gezilecek yerlere odaklanan tamamen Türkçe bi
 
 ## Demo
 
-Uygulamanın canlı demo versiyonunu [buradan](https://www.exploreturkey-blog.com/) görüntüleyebilirsiniz.
+Uygulamanın canlı versiyonunu [buradan](https://www.exploreturkey-blog.com/) görüntüleyebilirsiniz.
