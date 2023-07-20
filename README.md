@@ -1,38 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Blog Uygulaması - Türkiye'yi Keşfedin
 
-## Getting Started
+Bu Blog Uygulaması, Türkiye'de gezilecek yerlere odaklanan tamamen Türkçe bir blog uygulamasıdır. Next.js, Sanity CMS, Material UI ve Tailwind CSS kullanılarak oluşturuldu. Kullanıcılar Türkiye'deki çeşitli destinasyonlar hakkında blog yazılarını okuyabilir ve Mailchimp ile bir abonelik oluşturabilirler.
 
-First, run the development server:
+## Özellikler
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Next.js: Hızlı ve SEO dostu bir web uygulaması için Next.js kullanıldı.
+- Sanity CMS: Blog yazılarının içerik yönetimi için Sanity CMS kullanıldı.
+- Material UI: Uygulamanın kullanıcı arayüzü Material UI bileşenleriyle tasarlandı.
+- Tailwind CSS: Uygulamanın stillemesi için Tailwind CSS kullanıldı.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Kullanım
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Blog uygulamasını ziyaret edin ve Türkiye'nin güzel destinasyonları hakkında çeşitli blog yazılarını keşfedin.
+2. Mailchimp ile abonelik oluşturmak için e-posta adresinizi girin ve "Abone Ol" butonuna tıklayın.
+3. Türkiye'nin zengin tarihini, kültürünü ve doğal güzelliklerini blog yazıları aracılığıyla keyifle okuyun.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Demo
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Uygulamanın canlı demo versiyonunu [buradan](https://www.exploreturkey-blog.com/) görüntüleyebilirsiniz.
